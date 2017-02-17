@@ -14,7 +14,8 @@ Pod::Spec.new do |s|
 			A replacement for native imagepicker crop/Edit  
                  DESC
   s.homepage     = "https://github.com/alimashuri/AMCropView"
-  s.license      = "MIT"
+  s.license      = {:type => 'MIT', :file => 'LICENSE' }
+#  s.license	= "MIT" 
   s.author             = { "Ali Mashuri" => "ali@mashuri.web.id" }
   s.social_media_url   = "http://twitter.com/alimashuri"
 
@@ -22,5 +23,5 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/alimashuri/AMCropView.git", :tag => "#{s.version}" }
   s.source_files  = "Classes", "Classes/**/*.{h,m}"
   s.framework  = "ImageIO"
-  # s.dependency "JSONKit", "~> 1.4"
+  s.requires_arc = true
 end
