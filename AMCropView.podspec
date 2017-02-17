@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.description  = <<-DESC
 			A replacement for native imagepicker crop/Edit  
                  DESC
-  #s.homepage     = "https://alimashuri.id"
+  s.homepage     = "https://github.com/alimashuri/AMCropView"
   s.license      = "MIT"
   s.author             = { "Ali Mashuri" => "ali@mashuri.web.id" }
   s.social_media_url   = "http://twitter.com/alimashuri"
