@@ -1,0 +1,724 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4619F4613BA1EB1FD7572574 /* Pods_AMCropViewUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CC3AEDF132A038BFC3D881E /* Pods_AMCropViewUITests.framework */; };
+		47DB1541C118B9573B254EEB /* Pods_AMCropViewTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27F271A43746EACA087AEB5A /* Pods_AMCropViewTests.framework */; };
+		9AA887795F6D8BE33F8D4D47 /* Pods_AMCropView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAD1F79D7CD078A2C78F5064 /* Pods_AMCropView.framework */; };
+		E31790F51E56B6A700B9B3A4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E31790F41E56B6A700B9B3A4 /* main.m */; };
+		E31790F81E56B6A700B9B3A4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E31790F71E56B6A700B9B3A4 /* AppDelegate.m */; };
+		E31790FB1E56B6A700B9B3A4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E31790FA1E56B6A700B9B3A4 /* ViewController.m */; };
+		E31790FE1E56B6A700B9B3A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E31790FC1E56B6A700B9B3A4 /* Main.storyboard */; };
+		E31791001E56B6A700B9B3A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E31790FF1E56B6A700B9B3A4 /* Assets.xcassets */; };
+		E31791031E56B6A700B9B3A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E31791011E56B6A700B9B3A4 /* LaunchScreen.storyboard */; };
+		E317910E1E56B6A700B9B3A4 /* AMCropViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E317910D1E56B6A700B9B3A4 /* AMCropViewTests.m */; };
+		E31791191E56B6A700B9B3A4 /* AMCropViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E31791181E56B6A700B9B3A4 /* AMCropViewUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E317910A1E56B6A700B9B3A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E31790E81E56B6A700B9B3A4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E31790EF1E56B6A700B9B3A4;
+			remoteInfo = AMCropView;
+		};
+		E31791151E56B6A700B9B3A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E31790E81E56B6A700B9B3A4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E31790EF1E56B6A700B9B3A4;
+			remoteInfo = AMCropView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0EC75575476B912F47B67054 /* Pods-AMCropView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AMCropView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AMCropView/Pods-AMCropView.debug.xcconfig"; sourceTree = "<group>"; };
+		101168F41E8166685E728943 /* Pods-AMCropView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AMCropView.release.xcconfig"; path = "Pods/Target Support Files/Pods-AMCropView/Pods-AMCropView.release.xcconfig"; sourceTree = "<group>"; };
+		27F271A43746EACA087AEB5A /* Pods_AMCropViewTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AMCropViewTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CC3AEDF132A038BFC3D881E /* Pods_AMCropViewUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AMCropViewUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E957E8E5EEB599EBCC65F99 /* Pods-AMCropViewTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AMCropViewTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AMCropViewTests/Pods-AMCropViewTests.release.xcconfig"; sourceTree = "<group>"; };
+		B4C96559036AA31334A401C8 /* Pods-AMCropViewUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AMCropViewUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AMCropViewUITests/Pods-AMCropViewUITests.release.xcconfig"; sourceTree = "<group>"; };
+		BAD1F79D7CD078A2C78F5064 /* Pods_AMCropView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AMCropView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DECACEEBC7939BAFE47D6A91 /* Pods-AMCropViewUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AMCropViewUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AMCropViewUITests/Pods-AMCropViewUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E31790F01E56B6A700B9B3A4 /* AMCropView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AMCropView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E31790F41E56B6A700B9B3A4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E31790F61E56B6A700B9B3A4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E31790F71E56B6A700B9B3A4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E31790F91E56B6A700B9B3A4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E31790FA1E56B6A700B9B3A4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E31790FD1E56B6A700B9B3A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E31790FF1E56B6A700B9B3A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E31791021E56B6A700B9B3A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E31791041E56B6A700B9B3A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E31791091E56B6A700B9B3A4 /* AMCropViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AMCropViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E317910D1E56B6A700B9B3A4 /* AMCropViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AMCropViewTests.m; sourceTree = "<group>"; };
+		E317910F1E56B6A700B9B3A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E31791141E56B6A700B9B3A4 /* AMCropViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AMCropViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E31791181E56B6A700B9B3A4 /* AMCropViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AMCropViewUITests.m; sourceTree = "<group>"; };
+		E317911A1E56B6A700B9B3A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7DF51CAB33CEC32F7AD879A /* Pods-AMCropViewTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AMCropViewTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AMCropViewTests/Pods-AMCropViewTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E31790ED1E56B6A700B9B3A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AA887795F6D8BE33F8D4D47 /* Pods_AMCropView.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E31791061E56B6A700B9B3A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47DB1541C118B9573B254EEB /* Pods_AMCropViewTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E31791111E56B6A700B9B3A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4619F4613BA1EB1FD7572574 /* Pods_AMCropViewUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03D998B06B7118BD37229CDA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0EC75575476B912F47B67054 /* Pods-AMCropView.debug.xcconfig */,
+				101168F41E8166685E728943 /* Pods-AMCropView.release.xcconfig */,
+				F7DF51CAB33CEC32F7AD879A /* Pods-AMCropViewTests.debug.xcconfig */,
+				3E957E8E5EEB599EBCC65F99 /* Pods-AMCropViewTests.release.xcconfig */,
+				DECACEEBC7939BAFE47D6A91 /* Pods-AMCropViewUITests.debug.xcconfig */,
+				B4C96559036AA31334A401C8 /* Pods-AMCropViewUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		156C1D3734C6B02BDF2FA533 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BAD1F79D7CD078A2C78F5064 /* Pods_AMCropView.framework */,
+				27F271A43746EACA087AEB5A /* Pods_AMCropViewTests.framework */,
+				2CC3AEDF132A038BFC3D881E /* Pods_AMCropViewUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E31790E71E56B6A700B9B3A4 = {
+			isa = PBXGroup;
+			children = (
+				E31790F21E56B6A700B9B3A4 /* AMCropView */,
+				E317910C1E56B6A700B9B3A4 /* AMCropViewTests */,
+				E31791171E56B6A700B9B3A4 /* AMCropViewUITests */,
+				E31790F11E56B6A700B9B3A4 /* Products */,
+				03D998B06B7118BD37229CDA /* Pods */,
+				156C1D3734C6B02BDF2FA533 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E31790F11E56B6A700B9B3A4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E31790F01E56B6A700B9B3A4 /* AMCropView.app */,
+				E31791091E56B6A700B9B3A4 /* AMCropViewTests.xctest */,
+				E31791141E56B6A700B9B3A4 /* AMCropViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E31790F21E56B6A700B9B3A4 /* AMCropView */ = {
+			isa = PBXGroup;
+			children = (
+				E31790F61E56B6A700B9B3A4 /* AppDelegate.h */,
+				E31790F71E56B6A700B9B3A4 /* AppDelegate.m */,
+				E31790F91E56B6A700B9B3A4 /* ViewController.h */,
+				E31790FA1E56B6A700B9B3A4 /* ViewController.m */,
+				E31790FC1E56B6A700B9B3A4 /* Main.storyboard */,
+				E31790FF1E56B6A700B9B3A4 /* Assets.xcassets */,
+				E31791011E56B6A700B9B3A4 /* LaunchScreen.storyboard */,
+				E31791041E56B6A700B9B3A4 /* Info.plist */,
+				E31790F31E56B6A700B9B3A4 /* Supporting Files */,
+			);
+			path = AMCropView;
+			sourceTree = "<group>";
+		};
+		E31790F31E56B6A700B9B3A4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E31790F41E56B6A700B9B3A4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E317910C1E56B6A700B9B3A4 /* AMCropViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				E317910D1E56B6A700B9B3A4 /* AMCropViewTests.m */,
+				E317910F1E56B6A700B9B3A4 /* Info.plist */,
+			);
+			path = AMCropViewTests;
+			sourceTree = "<group>";
+		};
+		E31791171E56B6A700B9B3A4 /* AMCropViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E31791181E56B6A700B9B3A4 /* AMCropViewUITests.m */,
+				E317911A1E56B6A700B9B3A4 /* Info.plist */,
+			);
+			path = AMCropViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E31790EF1E56B6A700B9B3A4 /* AMCropView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E317911D1E56B6A700B9B3A4 /* Build configuration list for PBXNativeTarget "AMCropView" */;
+			buildPhases = (
+				6813A2B56AAF0C4C89A2BBE2 /* [CP] Check Pods Manifest.lock */,
+				E31790EC1E56B6A700B9B3A4 /* Sources */,
+				E31790ED1E56B6A700B9B3A4 /* Frameworks */,
+				E31790EE1E56B6A700B9B3A4 /* Resources */,
+				C379624F3EABBF3A256A9629 /* [CP] Embed Pods Frameworks */,
+				BC1074953FDF901375696737 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AMCropView;
+			productName = AMCropView;
+			productReference = E31790F01E56B6A700B9B3A4 /* AMCropView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E31791081E56B6A700B9B3A4 /* AMCropViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E31791201E56B6A700B9B3A4 /* Build configuration list for PBXNativeTarget "AMCropViewTests" */;
+			buildPhases = (
+				378DD8BC3854976CA68EB65A /* [CP] Check Pods Manifest.lock */,
+				E31791051E56B6A700B9B3A4 /* Sources */,
+				E31791061E56B6A700B9B3A4 /* Frameworks */,
+				E31791071E56B6A700B9B3A4 /* Resources */,
+				969AD61D5D674044F8D035AA /* [CP] Embed Pods Frameworks */,
+				F1818EA89E07593E13541AD9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E317910B1E56B6A700B9B3A4 /* PBXTargetDependency */,
+			);
+			name = AMCropViewTests;
+			productName = AMCropViewTests;
+			productReference = E31791091E56B6A700B9B3A4 /* AMCropViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E31791131E56B6A700B9B3A4 /* AMCropViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E31791231E56B6A700B9B3A4 /* Build configuration list for PBXNativeTarget "AMCropViewUITests" */;
+			buildPhases = (
+				CC4A6CFCC1DC90936B858966 /* [CP] Check Pods Manifest.lock */,
+				E31791101E56B6A700B9B3A4 /* Sources */,
+				E31791111E56B6A700B9B3A4 /* Frameworks */,
+				E31791121E56B6A700B9B3A4 /* Resources */,
+				90F670C9AC9A7EDCA611E800 /* [CP] Embed Pods Frameworks */,
+				38F66951EF77EDE7FA867450 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E31791161E56B6A700B9B3A4 /* PBXTargetDependency */,
+			);
+			name = AMCropViewUITests;
+			productName = AMCropViewUITests;
+			productReference = E31791141E56B6A700B9B3A4 /* AMCropViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E31790E81E56B6A700B9B3A4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Ali Mashuri";
+				TargetAttributes = {
+					E31790EF1E56B6A700B9B3A4 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					E31791081E56B6A700B9B3A4 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E31790EF1E56B6A700B9B3A4;
+					};
+					E31791131E56B6A700B9B3A4 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E31790EF1E56B6A700B9B3A4;
+					};
+				};
+			};
+			buildConfigurationList = E31790EB1E56B6A700B9B3A4 /* Build configuration list for PBXProject "AMCropView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E31790E71E56B6A700B9B3A4;
+			productRefGroup = E31790F11E56B6A700B9B3A4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E31790EF1E56B6A700B9B3A4 /* AMCropView */,
+				E31791081E56B6A700B9B3A4 /* AMCropViewTests */,
+				E31791131E56B6A700B9B3A4 /* AMCropViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E31790EE1E56B6A700B9B3A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E31791031E56B6A700B9B3A4 /* LaunchScreen.storyboard in Resources */,
+				E31791001E56B6A700B9B3A4 /* Assets.xcassets in Resources */,
+				E31790FE1E56B6A700B9B3A4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E31791071E56B6A700B9B3A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E31791121E56B6A700B9B3A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		378DD8BC3854976CA68EB65A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		38F66951EF77EDE7FA867450 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AMCropViewUITests/Pods-AMCropViewUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6813A2B56AAF0C4C89A2BBE2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		90F670C9AC9A7EDCA611E800 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AMCropViewUITests/Pods-AMCropViewUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		969AD61D5D674044F8D035AA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AMCropViewTests/Pods-AMCropViewTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BC1074953FDF901375696737 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AMCropView/Pods-AMCropView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C379624F3EABBF3A256A9629 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AMCropView/Pods-AMCropView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC4A6CFCC1DC90936B858966 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F1818EA89E07593E13541AD9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AMCropViewTests/Pods-AMCropViewTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E31790EC1E56B6A700B9B3A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E31790FB1E56B6A700B9B3A4 /* ViewController.m in Sources */,
+				E31790F81E56B6A700B9B3A4 /* AppDelegate.m in Sources */,
+				E31790F51E56B6A700B9B3A4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E31791051E56B6A700B9B3A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E317910E1E56B6A700B9B3A4 /* AMCropViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E31791101E56B6A700B9B3A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E31791191E56B6A700B9B3A4 /* AMCropViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E317910B1E56B6A700B9B3A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E31790EF1E56B6A700B9B3A4 /* AMCropView */;
+			targetProxy = E317910A1E56B6A700B9B3A4 /* PBXContainerItemProxy */;
+		};
+		E31791161E56B6A700B9B3A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E31790EF1E56B6A700B9B3A4 /* AMCropView */;
+			targetProxy = E31791151E56B6A700B9B3A4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E31790FC1E56B6A700B9B3A4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E31790FD1E56B6A700B9B3A4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E31791011E56B6A700B9B3A4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E31791021E56B6A700B9B3A4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E317911B1E56B6A700B9B3A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E317911C1E56B6A700B9B3A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E317911E1E56B6A700B9B3A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0EC75575476B912F47B67054 /* Pods-AMCropView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AMCropView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.alimashuri.AMCropView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E317911F1E56B6A700B9B3A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 101168F41E8166685E728943 /* Pods-AMCropView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AMCropView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.alimashuri.AMCropView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E31791211E56B6A700B9B3A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7DF51CAB33CEC32F7AD879A /* Pods-AMCropViewTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AMCropViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.alimashuri.AMCropViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AMCropView.app/AMCropView";
+			};
+			name = Debug;
+		};
+		E31791221E56B6A700B9B3A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E957E8E5EEB599EBCC65F99 /* Pods-AMCropViewTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AMCropViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.alimashuri.AMCropViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AMCropView.app/AMCropView";
+			};
+			name = Release;
+		};
+		E31791241E56B6A700B9B3A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DECACEEBC7939BAFE47D6A91 /* Pods-AMCropViewUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = AMCropViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.alimashuri.AMCropViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AMCropView;
+			};
+			name = Debug;
+		};
+		E31791251E56B6A700B9B3A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4C96559036AA31334A401C8 /* Pods-AMCropViewUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = AMCropViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.alimashuri.AMCropViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AMCropView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E31790EB1E56B6A700B9B3A4 /* Build configuration list for PBXProject "AMCropView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E317911B1E56B6A700B9B3A4 /* Debug */,
+				E317911C1E56B6A700B9B3A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E317911D1E56B6A700B9B3A4 /* Build configuration list for PBXNativeTarget "AMCropView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E317911E1E56B6A700B9B3A4 /* Debug */,
+				E317911F1E56B6A700B9B3A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E31791201E56B6A700B9B3A4 /* Build configuration list for PBXNativeTarget "AMCropViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E31791211E56B6A700B9B3A4 /* Debug */,
+				E31791221E56B6A700B9B3A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E31791231E56B6A700B9B3A4 /* Build configuration list for PBXNativeTarget "AMCropViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E31791241E56B6A700B9B3A4 /* Debug */,
+				E31791251E56B6A700B9B3A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E31790E81E56B6A700B9B3A4 /* Project object */;
+}
