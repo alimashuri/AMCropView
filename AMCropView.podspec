@@ -9,17 +9,17 @@
 Pod::Spec.new do |s|
   s.name         = "AMCropView"
   s.version      = "0.0.1"
-  s.summary      = "A short description of AMCropView."
+  s.summary      = "A replacement for native imagepicker crop Edit"
   s.description  = <<-DESC
-			ImageView Cropper for replacement iOS image crop
-                   DESC
-  s.homepage     = "https://alimashuri.id"
+			A replacement for native imagepicker crop/Edit  
+                 DESC
+  #s.homepage     = "https://alimashuri.id"
   s.license      = "MIT"
   s.author             = { "Ali Mashuri" => "ali@mashuri.web.id" }
   s.social_media_url   = "http://twitter.com/alimashuri"
 
   s.platform     = :ios, "8.0"
-  s.source       = { :git => "http://github.com/alimashuri/AMCropView.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/alimashuri/AMCropView.git", :tag => "#{s.version}" }
   s.source_files  = "Classes", "Classes/**/*.{h,m}"
   s.framework  = "ImageIO"
   # s.dependency "JSONKit", "~> 1.4"
