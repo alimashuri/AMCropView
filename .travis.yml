@@ -5,4 +5,5 @@ before_install:
 script:
 - set -o pipefail
 
+
 - xcodebuild -project Toucan.xcodeproj -scheme "AMCropView" test -sdk iphonesimulator -destination "platform=iOS Simulator,name=iPhone 6s" ONLY_ACTIVE_ARCH=NO | xcpretty -c
