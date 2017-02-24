@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-@import AMCropView;
+#import "AMCropView.h"
 
 
 @interface ViewController ()<UIImagePickerControllerDelegate,UINavigationControllerDelegate, AMCropViewDelegate>

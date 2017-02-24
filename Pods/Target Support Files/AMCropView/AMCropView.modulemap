@@ -1,6 +1,0 @@
-framework module AMCropView {
-  umbrella header "AMCropView-umbrella.h"
-
-  export *
-  module * { export * }
-}
